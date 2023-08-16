@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /* Arrays */
+        let numbers = [1, 2, 3, 4, 5];
+        console.log(numbers[0]);  // Output: 1
+        numbers.push(6);          // Add element to the end
+        numbers.pop();            // Remove element from the end
+
+        /* Objects */
+        let person = {
+            firstName: "John",
+            lastName: "Doe",
+            age: 30
+        };
+        console.log(person.firstName);  // Output: John
+        person.age = 31;                // Update property value
+
+
+        /* Maps */
+        let myMap = new Map();
+        myMap.set("key1", "value1");
+        myMap.set("key2", "value2");
+        console.log(myMap.get("key1"));  // Output: value1
+
+
+        /* Sets */
+        let numbers1 = [1, 2, 3, 4, 5];
+        console.log(numbers1[0]);  // Output: 1
+        numbers1.push(6);          // Add element to the end
+        numbers1.pop();            // Remove element from the end
+
+        /* Arrays and Objects Destructuring */
+        let [first, second] = numbers;
+        console.log(first);   // Output: 1
+        console.log(second);  // Output: 2
+
+        let { firstName, lastName } = person;
+        console.log(firstName);  // Output: John
+        console.log(lastName);   // Output: Doe
+
+
+    </script>
+</body>
+
+</html>
